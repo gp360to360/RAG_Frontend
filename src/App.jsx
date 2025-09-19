@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { v4 as uuidv4 } from "uuid";
-import dotenv from "dotenv";
-dotenv.config();
+
 // The base URL of your deployed NestJS backend on Render
 const API_URL = 'https://new-chatbot-backend-n4ob.onrender.com';
 
